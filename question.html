@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math Game Question</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1 class="game-title">Math Question</h1>
+  </header>
+
+  <main>
+    <div class="container">
+      <p id="timer">Time Left: 60s</p>
+      <p id="scoreText">Score: 0</p>
+      <p id="questionText"></p>
+      <input type="text" id="answerInput" placeholder="Your answer">
+      <button id="submitBtn">Submit</button>
+      <p id="feedback"></p>
+      <button id="homeBtn" class="hidden" onclick="returnHome()">Return to Home</button>
+    </div>
+  </main>
+
+  <script src="question.js"></script>
+</body>
+</html>

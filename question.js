@@ -144,9 +144,10 @@ function endGame(){
 }
 
 function returnHome(){
-  window.location.href = 'home.html';
+  window.location.href = 'index.html';
 }
 
 // Start the first question
 generateQuestion();
 updateScore();
+

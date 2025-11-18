@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url('Pictures & Sounds/9404194.jpg') no-repeat center center fixed;
+  background: url('Pictures%20%26%20Sounds/9404194.jpg') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   text-align: center;
@@ -127,4 +127,5 @@ input[type=text] {
   width: 80%;
   max-width: 200px;
 }
+
 

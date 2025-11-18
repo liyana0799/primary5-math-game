@@ -15,8 +15,8 @@ const submitBtn = document.getElementById('submitBtn');
 const homeBtn = document.getElementById('homeBtn');
 
 // Load audio files from Dropbox links
-const correctSound = new Audio('https://www.dropbox.com/scl/fi/4m12q35uodjyjcslalq1a/correct-sound-effect.mp3?dl=1');
-const wrongSound   = new Audio('https://www.dropbox.com/scl/fi/yj16jb9rc0vn3iyx8g1ze/wrong-sound-effect.mp3?dl=1');
+const correctSound = new Audio('Pictures%20%26%20Sounds/correct%20sound%20effect.mp3');
+const wrongSound   = new Audio('Pictures%20%26%20Sounds/wrong%20sound%20effect.mp3');
 
 // Timer countdown
 const timerInterval = setInterval(() => {
@@ -150,4 +150,5 @@ function returnHome(){
 // Start the first question
 generateQuestion();
 updateScore();
+
 

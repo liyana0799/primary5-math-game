@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url('https://www.dropbox.com/scl/fi/egthu3gfdbovypmezuu0v/9404194.jpg?dl=1') no-repeat center center fixed;
+  background: url('Pictures & Sounds/9404194.jpg') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   text-align: center;
@@ -127,3 +127,4 @@ input[type=text] {
   width: 80%;
   max-width: 200px;
 }
+
